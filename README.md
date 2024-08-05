@@ -25,7 +25,7 @@ make
 To run the program:
 
 ```shell
-./cub3d <path/to/map.cub>
+./cub3d maps/map.cub
 ```
 
 The program takes a map file as an argument. Maps are available in the `maps` directory. 
