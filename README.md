@@ -16,21 +16,11 @@ git clone https://github.com/ilopez-r/cub3d.git
 
 ## Compile and Run
 
-There are two versions of the program, the mandatory part and the bonus part. The bonus part adds wall collision, a minimap, and the ability to rotate the view by moving the mouse.
-
-To compile the mandatory part, `cd` into the cloned directory and:
+To compile the game, `cd` into the cloned directory and:
 
 ```shell
 make
 ```
-
-To compile the bonus part, `cd` into the cloned directory and:
-
-```shell
-make bonus
-```
-Note: you may need to `make fclean` to switch between the mandatory and bonus compilations (working on a fix for this!).
-
 
 To run the program:
 
@@ -38,13 +28,7 @@ To run the program:
 ./cub3d <path/to/map.cub>
 ```
 
-The program takes a map file as an argument. Maps are available in the `maps` directory. There are good maps which the program should run smoothly with, and bad maps which the program should reject.
-For example:
-
-- `./cub3d maps/good/library.cub` should run.
-
-- `./cub3d maps/bad/filetype_wrong.buc` should print an error and abort.
-
+The program takes a map file as an argument. Maps are available in the `maps` directory. 
 ## Controls
 
 Controls for movement and rotation are:
