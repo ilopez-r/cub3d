@@ -39,4 +39,3 @@ Controls for movement and rotation are:
 - `D`: strafe right
 - `left arrow`: rotate left
 - `right arrow`: rotate right
-- `mouse`: rotate by moving the mouse (bonus only)
